@@ -1,0 +1,6 @@
+services:
+  app:
+    container_name: hosdokoko-bot
+    build: .
+    ports:
+      - "8000:8000"
